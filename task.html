@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel=" stylesheet" href="task.css">
+    <script src="jquery-3.6.0.min.js"></script>
+</head>
+    <body>
+        <div class = "add">
+            <a class ="tasker">Tasker</a>
+            <div class = "button" id = "jsBtn">✚ Add New</div>
+        </div>
+
+
+        
+
+        <div class = "task" id = "task">
+        </div>
+
+        <div class="modal"> 
+            <div class="modal-content"> 
+                <span class="close-button">X</span> 
+                <div class="title">Add New Task</div> 
+                <hr>
+                  <label>Image url</label> 
+                  <input id = "url" type="url" name="url" placeholder="https://image.com" required="required"> 
+                  <label>Task Title</label> 
+                  <input id = "imgTitle" name="title" placeholder="UI development" required="required"></input> 
+                  <label>Task Type</label> 
+                  <input id = "imgType" name="type" placeholder="study" required="required"></input> 
+                  <label>Task Description</label> 
+                  <textarea id = "imgDescription" name="description" placeholder="Describe your task in detail" required="required"></textarea> 
+                  <hr>
+                  <input type="button" id="cancel" value="Close"> 
+                  <input type="submit" id="submit" value="Save Changes"> 
+            </div> 
+        </div>
+      <script src="task.js"></script>
+    </body>
+
+    
+</html>
